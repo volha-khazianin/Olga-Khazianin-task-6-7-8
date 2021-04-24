@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing suite" duration-ms="95673" started-at="2021-04-22T17:50:15 PDT" finished-at="2021-04-22T17:51:51 PDT">
+    <groups>
+    </groups>
+    <test name="Registration Test" duration-ms="82297" started-at="2021-04-22T17:50:15 PDT" finished-at="2021-04-22T17:51:37 PDT">
+      <class name="com.electonicstore.tests.RegistrationTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="openBrowser" is-config="true" duration-ms="1979" started-at="2021-04-22T17:50:15 PDT" finished-at="2021-04-22T17:50:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="RegistrationEmptyFirstName()[pri:1, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="RegistrationEmptyFirstName" duration-ms="18366" started-at="2021-04-22T17:50:17 PDT" finished-at="2021-04-22T17:50:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationEmptyFirstName -->
+        <test-method status="PASS" signature="RegistrationEmptyLastName()[pri:2, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="RegistrationEmptyLastName" duration-ms="12167" started-at="2021-04-22T17:50:35 PDT" finished-at="2021-04-22T17:50:48 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationEmptyLastName -->
+        <test-method status="PASS" signature="RegistrationEmptyEmail()[pri:3, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="RegistrationEmptyEmail" duration-ms="12308" started-at="2021-04-22T17:50:48 PDT" finished-at="2021-04-22T17:51:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationEmptyEmail -->
+        <test-method status="PASS" signature="RegistrationEmptyTelephone()[pri:4, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="RegistrationEmptyTelephone" duration-ms="11982" started-at="2021-04-22T17:51:00 PDT" finished-at="2021-04-22T17:51:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationEmptyTelephone -->
+        <test-method status="PASS" signature="RegistrationEmptyPassword()[pri:5, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="RegistrationEmptyPassword" duration-ms="12092" started-at="2021-04-22T17:51:12 PDT" finished-at="2021-04-22T17:51:24 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationEmptyPassword -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:10, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="RegistrationTest" duration-ms="12650" started-at="2021-04-22T17:51:24 PDT" finished-at="2021-04-22T17:51:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.electonicstore.tests.RegistrationTest@13fee20c]" name="closeBrowser" is-config="true" duration-ms="716" started-at="2021-04-22T17:51:37 PDT" finished-at="2021-04-22T17:51:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.electonicstore.tests.RegistrationTest -->
+    </test> <!-- Registration Test -->
+    <test name="Login tests" duration-ms="13307" started-at="2021-04-22T17:51:37 PDT" finished-at="2021-04-22T17:51:51 PDT">
+      <class name="com.electonicstore.tests.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.electonicstore.tests.LoginTest@6df97b55]" name="openBrowser" is-config="true" duration-ms="1309" started-at="2021-04-22T17:51:37 PDT" finished-at="2021-04-22T17:51:39 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginAccountTest()[pri:1, instance:com.electonicstore.tests.LoginTest@6df97b55]" name="loginAccountTest" duration-ms="6224" started-at="2021-04-22T17:51:39 PDT" finished-at="2021-04-22T17:51:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAccountTest -->
+        <test-method status="PASS" signature="logOutTest()[pri:2, instance:com.electonicstore.tests.LoginTest@6df97b55]" name="logOutTest" duration-ms="793" started-at="2021-04-22T17:51:45 PDT" finished-at="2021-04-22T17:51:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="LoginWrongPassword()[pri:3, instance:com.electonicstore.tests.LoginTest@6df97b55]" name="LoginWrongPassword" duration-ms="2354" started-at="2021-04-22T17:51:46 PDT" finished-at="2021-04-22T17:51:48 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrongPassword -->
+        <test-method status="FAIL" signature="LoginWrongEmail()[pri:4, instance:com.electonicstore.tests.LoginTest@6df97b55]" name="LoginWrongEmail" duration-ms="1936" started-at="2021-04-22T17:51:48 PDT" finished-at="2021-04-22T17:51:50 PDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Testing of logging with wrong email is failed expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Testing of logging with wrong email is failed expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.electonicstore.tests.LoginTest.LoginWrongEmail(LoginTest.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrongEmail -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.electonicstore.tests.LoginTest@6df97b55]" name="closeBrowser" is-config="true" duration-ms="687" started-at="2021-04-22T17:51:50 PDT" finished-at="2021-04-22T17:51:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.electonicstore.tests.LoginTest -->
+    </test> <!-- Login tests -->
+  </suite> <!-- Testing suite -->
+</testng-results>
